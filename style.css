@@ -1,0 +1,439 @@
+
+  
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  position: absolute;
+  width: 100%;
+  height: 1800px;
+}
+
+.container-box {
+  padding: 40px;
+  padding-left: 160px;
+}
+
+.h2 {
+  margin-top: -40px;
+  padding-left: 50px;
+  font-size: 27px;
+}
+
+.nav {
+  display: flex;
+  gap: 40px;
+  padding-left: 370px;
+  margin-top: -100px;
+}
+
+.imglar {
+  padding-left: 830px;
+  margin-top: -60px;
+  display: flex;
+  gap: 40px;
+}
+
+.akar {
+  margin-right: 30px;
+}
+
+.brat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 1020px;
+  margin-top: -90px;
+  gap: 15px;
+}
+
+.uzim {
+  width: 140px;
+  height: 90px;
+  border-radius: 50%;
+}
+
+.uzim-1 {
+  display: flex;
+  margin-left: 20px;
+}
+
+.h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+
+.h3 {
+  color: orangered;
+}
+
+.p-uch {
+  padding-left: 160px;
+  padding-top: -100px;
+  font-size: 20px;
+}
+
+.p-ikki {
+  position: absolute;
+  padding-left: 1100px;
+  margin-top: -20px;
+  font-size: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.font {
+  width: 1000px;
+  min-height: 160px;
+  box-shadow: 0 0 15px;
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-left: 180px;
+  padding: 30px;
+  position: relative;
+  background: #fff;
+  cursor: pointer;
+}
+
+
+.price {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.lorem {
+  font-size: 14px;
+  color: #555;
+  max-width: 700px;
+}
+
+
+.laylo {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  text-align: right;
+}
+
+.budjet {
+  color: #1DBF73;
+  font-size: 18px;
+}
+
+.minut {
+  position: absolute;
+  font-size: 13px;
+  color: #888;
+  margin-top: 10px;
+}
+
+
+.boxcha {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  font-size: 14px;
+  color: orangered;
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.font {
+  animation: bounce 2.1s infinite;
+}
+
+.footer-1 {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  background-color: #F2F0FE;
+  margin-top: 110%;
+}
+
+.footer {
+  position: absolute;
+  margin-top: 70px;
+  display: flex;
+  gap: 110px;
+  margin-left: 190px;
+}
+
+.p-2 {
+  position: absolute;
+  margin-top: 119%;
+  padding-left: 190px;
+  flex-direction: column;
+}
+
+.p-2 p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.p-3 {
+  position: absolute;
+  margin-top: 119%;
+  padding-left: 460px;
+  flex-direction: column;
+}
+
+.p-3 p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.p-4 {
+  position: absolute;
+  margin-top: 119%;
+  padding-left: 690px;
+  flex-direction: column;
+}
+
+.p-4 p:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.imglar-2 {
+  position: absolute;
+  margin-top: 119%;
+  margin-left: 900px;
+  display: flex;
+  gap: 15px;
+}
+
+.oxiri {
+  position: absolute;
+  margin-top: 135%;
+  margin-left: 450px;
+}
+
+.github-ulash {
+  position: absolute;
+  display: flex;
+  gap: 15px;
+  margin-top: 300px;
+  margin-left: 1090px;
+  margin-top: 147px;
+}
+
+.github-ulash img {
+  width: 50px;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 600px;
+  margin-top: -10px;
+}
+
+@media (max-width: 375px) {
+
+  /* ===== GLOBAL RESET ===== */
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  .container {
+    width: 100%;
+    padding: 0 12px;
+  }
+
+  /* ===== HEADER (rasmdagidek ixcham) ===== */
+  .container-box {
+    width: 100%;
+    padding: 12px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+  }
+
+  .imgcha {
+    width: 26px;
+  }
+
+  .h2 {
+    font-size: 17px;
+    margin-right: 250px;
+    padding: 0;
+    margin-top: 2px;
+  }
+
+  .imglar {
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin-left: 190px;
+    margin-top: -67px;
+  }
+
+  .imglar img {
+    width: 16px;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .brat {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 0;
+  }
+
+  .uzim {
+    width: 45px;
+    height: 45px;
+    margin-right: 150px;
+  }
+
+  .uzim-1 {
+    position: absolute;
+    margin-top: 80px;
+    margin-right: 60px;
+  }
+  .p-ikki {
+    display: none;
+  }
+
+  .p-uch {
+    display: none;
+  }
+
+
+  .akar {
+    display: none;
+  }
+
+ 
+  .h1 {
+    justify-content: center;
+    margin: 10px 0;
+  }
+
+  
+  .font {
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+    position: relative;
+    top: -10px;
+  }
+
+  .budjet {
+    margin-top: 35px;
+    margin-right: 130px;
+  }
+  .lorem {
+    margin-top: 30px;
+  }
+  .minut {
+    display: none;
+  }
+
+  .boxcha {
+    display: none;
+  }
+  .footer-1 {
+    position: absolute;
+    
+    width: 100%;
+    background: #F2F0FE;
+    margin-top: 30px;
+    padding: 30px 0;
+    margin-left: 0px;
+    margin-top: 1750px;
+    height: 550px;
+  }
+.footer {
+  display: none;
+}
+  .p-2 {
+    position: absolute;
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+   margin-left: 80px;
+    margin-top: 1760px;
+  }
+
+  .p-3 {
+    position: absolute;
+    text-align: center;
+    padding-left: 90px;
+    margin-top: 2000px;
+  }
+  .p-4 {
+    position: absolute;
+    text-align: center;
+    margin-top: 2170px;
+    padding-left: 90px;
+  }
+  .imglar-2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+    display: none;
+  }
+
+  .imglar-2 img {
+    width: 30px;
+  }
+
+
+  .github-ulash {
+    position: absolute;
+    display: flex;
+    text-align: center;
+    margin-top: 580px;
+    margin-left: 0;
+    padding-left: 170px;
+    
+  }
+
+  .github-ulash img {
+    width: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .oxiri {
+    position: absolute;
+    margin-top: 2370px;
+    text-align: center;
+    font-size: 11px;
+    margin-left: 0;
+    font-size: 15px;
+    display: flex;
+  }
+}
